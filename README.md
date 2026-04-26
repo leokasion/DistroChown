@@ -22,7 +22,7 @@ Permission drift is a common issue during server migrations, CMS updates, or man
 2. **⚡ Run with Sudo:**
    Since changing file ownership requires superuser privileges:
    ```Bash
-    sudo python3 sentinel.py
+    sudo python3 main.py
    ```
 
 3. **📊 Logic Mapping**
