@@ -6,7 +6,7 @@
 Permission drift is a common issue during server migrations, CMS updates, or manual file uploads. Different distributions use different default users (`www-data` vs `apache` vs `wwwrun`) and different web roots (`/var/www/` vs `/srv/www/`). Manual fixing is prone to human error.
 
 ## ✨ Features
-* **Automated Distro Sensing:** Parses `/etc/os-release` to detect **Debian**, **Rocky**, **RHEL**, or **opemSUSE**.
+* **Automated Distro Sensing:** Parses `/etc/os-release` to detect **Debian**, **Rocky**, **RHEL**, or **openSUSE**.
 * **Intelligent Mapping:** Automatically switches between `apache`, `www-data`, and `wwwrun` based on the environment.
 * **Modern Path Handling:** Built with `pathlib` for robust recursive walking and error handling.
 * **Security Focused:** Standardizes directories to `755` and files to `644`.
